@@ -35,7 +35,7 @@ public class ExampleController {
 	@GetMapping("example") // /example GET 방식 요청 매핑
 	public String exampleMethod() {
 		
-		//forward 하려는 html 파일경로 return 작성
+		//forward 하려는 html 파일경로를 return에 작성
 		// 단, ViewResolver 가 제공하는
 		// 타임리프의 접두사, 접미사 제외하고 작성
 		
