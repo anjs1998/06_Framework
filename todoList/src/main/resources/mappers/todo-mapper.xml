@@ -94,4 +94,33 @@
 		FROM TB_TODO
 		WHERE TODO_NO = ${todoNo} <!-- todoDetail(int todoNo)의 매개변수 이름을 여기에 대입  -->
 	</select>
+	
+	
+	<!-- 완료 여부 변경 -->
+	<update id="changeComplete" parameterType="Todo">
+		UPDATE TB_TODO SET
+		COMPLETE = #{complete} <!-- 문자열에 홑따옴표를 붙이기 위해 #를 사용 -->
+		WHERE TODO_NO = #{todoNo} <!-- 숫자는 홑따옴표를 붙이든 안붙이든 상관없음 -->
+
+	</update>
+		<!-- 할 일 수정 -->	
+		
+	<update id="todoUpdate" parameterType = "Todo">
+		UPDATE TB_TODO SET
+		TODO_TITLE = #{todoTitle},
+		TODO_CONTENT = #{todoContent}
+		WHERE TODO_NO = #{todoNo}
+	</update>
+	
+	<!--  할일 삭제 -->
+	<delete id="todoDelete" parameterType = "Todo">
+		DELETE FROM TB_TODO
+		WHERE TODO_NO = #{todoNo}
+	</delete>
+	
+	<!-- 전체 할일 개수 조회 -->
+	<select id="getTotalCount" resultType="_int">
+		SELECT COUNT(*) FROM TB_TODO
+	</select >
+
 </mapper>

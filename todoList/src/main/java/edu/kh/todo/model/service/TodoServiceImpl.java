@@ -79,4 +79,40 @@ public class TodoServiceImpl implements TodoService{
 		
 		return mapper.todoDetail(todoNo);
 	}
+
+	@Override
+	public int changeComplete(Todo todo) {
+		// TODO Auto-generated method stub
+		return mapper.changeComplete(todo);
+	}
+
+	@Override
+	public int todoUpdate(Todo todo) {
+		// TODO Auto-generated method stub
+		return mapper.todoUpdate(todo);
+	}
+
+	@Override
+	public int todoDelete(Todo todo) {
+		// TODO Auto-generated method stub
+		return mapper.todoDelete(todo);
+	}
+
+	@Override
+	public int getTotalCount() {
+		// TODO Auto-generated method stub
+		return mapper.getTotalCount(); // 동기식으로 만든 아이 재활용
+	}
+
+	@Override
+	public int getCompleteCount() {
+		// TODO Auto-generated method stub
+		return mapper.getCompleteCount();
+	}
+
+	@Override
+	public List<Todo> selectList() {
+		// TODO Auto-generated method stub
+		return mapper.selectAll(); //재활용
+	}
 }
