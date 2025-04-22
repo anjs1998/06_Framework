@@ -46,7 +46,8 @@ public interface TodoService {
 
 
 	int todoDelete(Todo todo);
-
+	
+	public int todoDelete(int todoNo);
 	/**전체 할 일 개수 조회
 	 * @return totalCount
 	 * */
@@ -62,5 +63,8 @@ public interface TodoService {
 	 * @return todoList
 	 * */
 	List<Todo> selectList();
+
+
+	
 
 }
