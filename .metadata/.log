@@ -3468,3 +3468,1830 @@ java.lang.ClassCastException: class org.eclipse.jdt.internal.compiler.ast.FieldD
 	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
 	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2025-04-22 16:56:52.874 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-22 16:56:54.066
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-22 16:56:54.192
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-22 16:56:59.134
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-22 16:56:59.433
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-22 16:56:59.433
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-22 16:56:59.638
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-22 16:56:59.638
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-22 16:57:02.378
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745308622377
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:02.378
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-22 16:57:02.382
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11984
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-22 16:57:02.872
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.049
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.050
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.051
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.677
+!MESSAGE Classpath changed for project: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.678
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.684
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.684
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 16:57:03.685
+!MESSAGE Boot project ADDED: todoList
+!SESSION 2025-04-22 17:33:36.133 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-22 17:33:37.598
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-22 17:33:37.727
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-22 17:33:39.461
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-22 17:33:39.708
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-22 17:33:39.708
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-22 17:33:39.888
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-22 17:33:39.888
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-22 17:33:42.481
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745310822481
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:42.482
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-22 17:33:42.486
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6028
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-22 17:33:43.000
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.048
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.049
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.051
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.054
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.056
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.058
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-22 17:33:43.059
+!MESSAGE Boot project ADDED: todoList
+
+!ENTRY org.eclipse.jface 2 0 2025-04-22 17:34:15.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-22 17:34:15.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-04-23 09:02:35.010 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 09:02:36.992
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-23 09:02:37.148
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 09:02:39.830
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-23 09:02:40.100
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-23 09:02:40.100
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-23 09:02:40.287
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-23 09:02:40.287
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-23 09:02:43.198
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745366563198
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:43.198
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-23 09:02:43.204
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10248
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.344
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.345
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.346
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.346
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.347
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.347
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-23 09:02:44.347
+!MESSAGE Boot project ADDED: todoList
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-23 09:02:44.416
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-04-23 09:28:47.396
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-23 09:28:47.396
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-23 12:16:34.323
+!MESSAGE [Info]	ESLint server running in node v22.13.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-23 12:16:34.425
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.7.3 from path "C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.6.202502071606\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-23 12:16:34.437
+!MESSAGE [Info]	Typescript Server version info: {version=5.7.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-23 12:16:34.862
+!MESSAGE [Info]	No ES Library found for file: file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/resources/static/js/member/signup.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:39:25.910
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:39:43.031
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:39:43.037
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:39:43.041
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:39:43.049
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:01.928
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:01.933
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:03.016
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:05.044
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:05.052
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:07.074
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:08.548
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:09.327
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:12.450
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:14.126
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:16.364
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:19.690
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:21.956
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:23.196
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:25.202
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:27.658
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:27.664
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:28.848
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:29.876
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:31.795
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:31.800
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:37.075
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:37.905
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:39.932
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:40.496
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:43.993
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:44.670
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:44.676
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:46.455
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:46.464
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:48.662
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:52.095
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:52.104
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:53.605
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:56.142
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:59.712
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:44:59.715
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:01.561
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:02.987
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:05.636
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:07.225
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:10.804
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:15.500
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:17.311
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:19.309
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:19.313
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:22.107
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:23.178
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:24.226
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:29.626
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:32.481
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:33.053
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:45:55.520
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:46:01.559
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:46:06.384
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:46:09.594
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:46:10.540
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 12:46:10.545
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 14:25:33.182
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 14:25:33.190
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 14:27:14.205
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 14:27:14.226
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/member/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 15:22:25.871
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 15:22:25.877
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 15:23:42.303
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 15:24:19.602
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 15:24:19.608
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:32:29.620
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:32:55.363
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:04.800
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:04.806
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:13.878
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:13.882
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:16.171
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:16.180
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:26.318
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:26.322
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:31.585
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:31.588
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:39.100
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:39.104
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:42.415
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:42.420
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:44.900
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:44.906
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:46.654
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:46.661
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:48.889
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:48.893
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:48.898
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:51.857
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:51.860
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:51.864
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:52.487
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:52.493
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:53.777
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:53.781
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:53.784
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:56.861
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:56.870
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:58.313
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:33:58.317
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:01.227
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:02.490
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:06.282
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:16.493
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:16.496
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:19.505
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:34:19.508
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:17.044
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:17.715
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:20.496
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:26.798
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:36.036
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:35:36.040
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:39.445
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:42.929
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:46.815
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:49.305
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:54.306
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:36:54.312
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:47.140
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:47.149
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:50.675
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:50.681
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:50.688
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:54.621
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:54.625
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:56.024
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:56.029
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:56.032
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:56.037
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:58.438
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:38:58.444
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:39:59.292
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:39:59.297
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:02.824
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:02.831
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:09.144
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:09.150
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:10.985
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:10.988
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:10.992
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:10.995
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:14.115
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:14.121
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:15.236
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:15.241
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:40:15.248
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-23 16:43:51.296
+!MESSAGE [Error]	Unexpected resource file:///C:/Users/user1/Desktop/06_Framework-master/06_Framework/boardProject-boot/src/main/java/edu/kh/project/myPage/controller/MyPageController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-23 17:04:25.078
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-23 17:45:13.420
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-04-24 09:11:15.329 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 09:11:19.426
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-24 09:11:19.708
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-24 09:17:16.562
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 09:17:17.027
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-24 09:17:17.331
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-24 09:17:17.331
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-24 09:17:17.534
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-24 09:17:17.535
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-24 09:17:20.959
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745453840959
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:20.960
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-24 09:17:20.965
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14064
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.862
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.863
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.864
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.864
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.865
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.865
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-24 09:17:21.865
+!MESSAGE Boot project ADDED: todoList
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-24 09:17:22.097
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-04-24 09:31:38.807
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-24 09:31:38.807
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-24 10:19:06.536
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-24 11:45:39.102
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-24 15:38:26.678
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-24 16:03:06.668
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-04-25 09:53:26.135 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 09:53:27.867
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-25 09:53:28.020
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-25 09:59:22.819
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 09:59:23.231
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 09:59:23.505
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 09:59:23.505
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 09:59:23.706
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 09:59:23.706
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 09:59:26.518
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745542766518
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:26.519
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 09:59:26.527
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5168
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 09:59:27.807
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.929
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.930
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.931
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.932
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.932
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.932
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 09:59:27.933
+!MESSAGE Boot project ADDED: todoList
+
+!ENTRY org.eclipse.jface 2 0 2025-04-25 09:59:37.385
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-25 09:59:37.385
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2025-04-25 10:00:12.718
+!MESSAGE no protocol: /?name=test01&groupId=edu.kh&artifactId=test01&version=0.0.1-SNAPSHOT&description=Demo+project+for+Spring+Boot&packageName=edu.kh.todo&type=gradle-project&packaging=jar&javaVersion=21&language=java&bootVersion=3.4.5&dependencies=configuration-processor&dependencies=lombok&dependencies=devtools&dependencies=mybatis&dependencies=jdbc&dependencies=oracle&dependencies=thymeleaf&dependencies=web
+!STACK 0
+java.net.MalformedURLException: no protocol: /?name=test01&groupId=edu.kh&artifactId=test01&version=0.0.1-SNAPSHOT&description=Demo+project+for+Spring+Boot&packageName=edu.kh.todo&type=gradle-project&packaging=jar&javaVersion=21&language=java&bootVersion=3.4.5&dependencies=configuration-processor&dependencies=lombok&dependencies=devtools&dependencies=mybatis&dependencies=jdbc&dependencies=oracle&dependencies=thymeleaf&dependencies=web
+	at java.base/java.net.URL.<init>(URL.java:772)
+	at java.base/java.net.URL.<init>(URL.java:654)
+	at java.base/java.net.URL.<init>(URL.java:590)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.newURL(NewSpringBootWizardModel.java:540)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:12.853
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:12.853
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:12.854
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:12.854
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:12.854
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 4 0 2025-04-25 10:00:12.866
+!MESSAGE NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:114)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	... 6 more
+Root exception:
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2025-04-25 10:00:51.586
+!MESSAGE no protocol: /
+!STACK 0
+java.net.MalformedURLException: no protocol: /
+	at java.base/java.net.URL.<init>(URL.java:772)
+	at java.base/java.net.URL.<init>(URL.java:654)
+	at java.base/java.net.URL.<init>(URL.java:590)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.newURL(NewSpringBootWizardModel.java:540)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:51.587
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:51.587
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:51.587
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:51.588
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2025-04-25 10:00:51.588
+!MESSAGE Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 4 0 2025-04-25 10:00:51.589
+!MESSAGE NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:114)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	... 6 more
+Root exception:
+java.lang.NullPointerException: Cannot invoke "java.net.URL.getProtocol()" because "url" is null
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.getLocalLocation(DownloadManager.java:163)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:114)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadableItem.getFile(DownloadableItem.java:65)
+	at org.springframework.ide.eclipse.boot.wizard.content.ZipFileCodeSet.each(ZipFileCodeSet.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.content.CodeSet.createAt(CodeSet.java:175)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:72)
+	at org.springframework.ide.eclipse.buildship30.Buildship30ImportStrategy$1.run(Buildship30ImportStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 10:01:31.354
+!MESSAGE Classpath changed for project: test01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 10:01:31.354
+!MESSAGE Boot project ADDED: test01
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-25 10:11:34.423
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-25 10:38:06.189
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 12:36:28.578
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:105)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:754)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2025-04-25 15:43:44.042
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:245)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11005)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:130)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.endParse(SourceElementParser.java:745)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12187)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12433)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12374)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.parseCompilationUnit(SourceElementParser.java:971)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:283)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:275)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1256)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1430)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 0 2025-04-25 15:43:44.048
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:245)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11005)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:130)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.endParse(SourceElementParser.java:745)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12187)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12433)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12374)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.parseCompilationUnit(SourceElementParser.java:971)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:283)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:275)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1256)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:182)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:108)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1430)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 0 2025-04-25 15:43:45.681
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:245)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11005)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12187)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12433)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1826)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12374)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10776)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1649)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:932)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:171)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:475)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:712)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5708)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5697)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:712)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:708)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:64)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.jdt.core 4 0 2025-04-25 15:43:45.681
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleValue failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnField(TransformEclipseAST.java:245)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:110)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:79)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11005)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12187)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12433)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1826)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12374)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10776)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1649)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:932)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:171)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:475)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:712)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5708)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5697)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:712)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:708)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:64)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-25 15:45:32.419
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2025-04-28 08:58:09.550 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-28 08:58:11.826
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-04-28 08:58:12.251
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-28 08:58:51.766
+!MESSAGE Logback config file: C:\homeworkspace\6_Framework\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-28 08:58:52.076
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-28 08:58:52.076
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-28 08:58:52.301
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-28 08:58:52.301
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-28 08:58:55.315
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.439
+!MESSAGE Boot project ADDED: boardProject-boot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.440
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.452
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.455
+!MESSAGE Boot project ADDED: boardProject-boot2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.457
+!MESSAGE Boot project ADDED: demoProject1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.459
+!MESSAGE Boot project ADDED: demoProject2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.461
+!MESSAGE Boot project ADDED: test01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.461
+!MESSAGE Boot project ADDED: todoList
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-28 08:58:55.479
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\tools\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/homeworkspace/6_Framework/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745798335477
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\tools\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 08:58:55.552
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-28 08:58:55.559
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12084
+
+!ENTRY Activator 4 0 2025-04-28 10:08:49.068
+!MESSAGE NullPointerException: Cannot invoke "org.springframework.ide.eclipse.boot.dash.model.BootProjectDashElementFactory.createOrGet(org.eclipse.core.resources.IProject)" because "this.elementFactory" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springframework.ide.eclipse.boot.dash.model.BootProjectDashElementFactory.createOrGet(org.eclipse.core.resources.IProject)" because "this.elementFactory" is null
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsPortRefresher.getElementFor(DevtoolsPortRefresher.java:92)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsPortRefresher.processCreated(DevtoolsPortRefresher.java:68)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processCreated(ProcessTracker.java:105)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.<init>(ProcessTracker.java:59)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsPortRefresher.<init>(DevtoolsPortRefresher.java:49)
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel.init(LocalBootDashModel.java:190)
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel.getElements(LocalBootDashModel.java:319)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getChildren(BootDashTreeContentProvider.java:49)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.hasChildren(BootDashTreeContentProvider.java:77)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2271)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:553)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2301)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:3122)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:796)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:871)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:818)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1647)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:782)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:1632)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1626)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1636)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection.createContents(BootDashUnifiedTreeSection.java:330)
+	at org.springsource.ide.eclipse.commons.livexp.ui.ViewPartWithSections.createPartControl(ViewPartWithSections.java:57)
+	at org.springframework.ide.eclipse.boot.dash.views.BootDashTreeView.createPartControl(BootDashTreeView.java:116)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.ui.internal.WorkbenchContributionFactory.create(WorkbenchContributionFactory.java:46)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:134)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:110)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4853)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:168)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:187)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.restoreStack(TrimStack.java:917)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.restore(MinMaxAddon.java:680)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:408)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4853)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:248)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:908)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:410)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4853)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:248)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.setState(MinMaxAddon.java:217)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon$1.restore(MinMaxAddon.java:135)
+	at org.eclipse.swt.custom.CTabFolder.onSelection(CTabFolder.java:2177)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:341)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.jface 2 0 2025-04-28 11:22:49.870
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-28 11:22:49.870
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-28 12:33:09.514
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-28 12:33:10.654
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
